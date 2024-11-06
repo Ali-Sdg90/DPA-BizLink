@@ -1,19 +1,16 @@
 import { Button, Card } from "antd";
 import React from "react";
 
-import { ReactComponent as RightArrowIcon } from "../assets/images/common/Right-Arrow.svg";
 import { ReactComponent as MoneyIcon } from "../assets/images/test-page/Money.svg";
-import { ReactComponent as SocialLinksIcon } from "../assets/images/test-page/Social-Links.png";
 import UserPlaceholderImage from "../assets/images/test-page/User-Placeholder.png";
-import VideoPlaceholderImage from "../assets/images/test-page/Video-Placeholder.png";
+import SocialLinksImage from "../assets/images/test-page/Social-Links.png";
+
+import Header from "../components/Layout/Header";
 
 const TestPage = () => {
     return (
-        <div>
-            <div className="app-header">
-                <RightArrowIcon className="back-icon" />
-                <div className="header-text">بیزلینک</div>
-            </div>
+        <div className="test-page">
+            <Header/>
 
             <Card className="first-section">
                 <div className="user-image">
@@ -31,7 +28,9 @@ const TestPage = () => {
                 </div>
             </Card>
 
-            <Card className="second-section"></Card>
+            <Card className="second-section">
+                <div className="video-player"></div>
+            </Card>
 
             <Card className="third-section" title="درباره من">
                 <div className="about-me-text">
@@ -44,8 +43,17 @@ const TestPage = () => {
             </Card>
 
             <Card className="forth-section" title="راه های ارتباطی">
-                <a href="#" className="linkedin-icon"></a>
-                <a href="#" className="instagram-icon"></a>
+                <a
+                    href="https://www.linkedin.com/in/ali-sdg90/"
+                    target="_blank"
+                    className="social-media-link"
+                >
+                    <img
+                        src={SocialLinksImage}
+                        alt="social-media-icon"
+                        className="social-media-icon"
+                    />
+                </a>
             </Card>
 
             <Card className="fifth-section" title="سوابق شغلی">
@@ -54,12 +62,15 @@ const TestPage = () => {
                         <div>لید مارکتینگ بلوبانک</div>-<div>۱۳۹۰ الی ۱۳۹۸</div>
                     </div>
                     <div className="work-experience-item">
-                        <div>لید مارکتینگ بلوبانک</div>-<div>۱۳۹۰ الی ۱۳۹۸</div>
+                        <div>مشاور مارکتینگ دیجیکالا</div>-
+                        <div>۱۳۹۸ الی ۱۴۰۱</div>
                     </div>
                 </div>
             </Card>
 
-            <Button type="primary">اشتراک گذاری</Button>
+            <Button className="share-btn" type="primary">
+                اشتراک گذاری
+            </Button>
         </div>
     );
 };
