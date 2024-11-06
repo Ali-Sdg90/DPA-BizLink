@@ -1,0 +1,81 @@
+.first-section {
+    height: 128px;
+
+    .user-image {
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 84px;
+        height: 84px;
+        border: 5px solid white;
+        outline: 5px solid #52d29b;
+        outline-offset: -1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -15px;
+        right: 7px;
+
+        img {
+            object-fit: cover;
+            width: 84px;
+            height: 84px;
+        }
+    }
+
+    .user-info {
+        position: absolute;
+        top: 8px;
+        right: 105px;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 7px;
+
+        .user-name {
+            color: #202020;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        .user-job {
+            color: #585858;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    .user-price {
+        position: absolute;
+        bottom: 20px;
+        color: #585858;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+.second-section {
+    background: url("../../images/test-page/Video-Placeholder.png") center/cover
+        no-repeat;
+    height: 184px;
+}
+
+.third-section {
+    .about-me-text {
+        color: #585858;
+
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}

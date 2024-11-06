@@ -1,0 +1,19 @@
+.ant-card {
+    margin: 16px;
+    box-shadow: 0px 4px 10px 0px #ededed;
+
+    .ant-card-head {
+        border-bottom: none;
+        color: #202020;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        min-height: unset;
+        padding: 7px 16px 10px;
+    }
+
+    .ant-card-body {
+        padding: 0 16px 6px;
+    }
+}
