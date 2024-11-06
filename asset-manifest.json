@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DPA-BizLink/static/css/main.e994b681.css",
+    "main.js": "/DPA-BizLink/static/js/main.23c141b2.js",
+    "static/media/Video-Placeholder.png": "/DPA-BizLink/static/media/Video-Placeholder.a8d8aa2e753e0ae20267.png",
+    "static/media/User-Placeholder.png": "/DPA-BizLink/static/media/User-Placeholder.2776b282d19ec057034c.png",
+    "static/media/Social-Links.png": "/DPA-BizLink/static/media/Social-Links.e5416a65ae669edac353.png",
+    "static/media/Page-Background.png": "/DPA-BizLink/static/media/Page-Background.48b02abe274cfa978f85.png",
+    "static/media/IRANYekanFN-Thin.ttf": "/DPA-BizLink/static/media/IRANYekanFN-Thin.8848d9cd79e7afcc6afe.ttf",
+    "static/media/IRANYekanFN-Light.ttf": "/DPA-BizLink/static/media/IRANYekanFN-Light.69e0283b3565ef71d7c7.ttf",
+    "static/media/IRANYekanFN.ttf": "/DPA-BizLink/static/media/IRANYekanFN.c60f52a9c7ded0f426e5.ttf",
+    "static/media/IRANYekanFN-Medium.ttf": "/DPA-BizLink/static/media/IRANYekanFN-Medium.007b49e993db13942de5.ttf",
+    "static/media/IRANYekanFN-ExtraBold.ttf": "/DPA-BizLink/static/media/IRANYekanFN-ExtraBold.163c5c7ff5721eefa766.ttf",
+    "static/media/IRANYekanFN-Bold.ttf": "/DPA-BizLink/static/media/IRANYekanFN-Bold.2e024cad6c04465db87c.ttf",
+    "static/media/IRANYekanFN-Black.ttf": "/DPA-BizLink/static/media/IRANYekanFN-Black.fbfa0aeb0b19e3f92114.ttf",
+    "static/media/Money.svg": "/DPA-BizLink/static/media/Money.f7c3b928f71c5542e70784b8ace925d2.svg",
+    "index.html": "/DPA-BizLink/index.html",
+    "static/media/Right-Arrow.svg": "/DPA-BizLink/static/media/Right-Arrow.bd32f92494ab43fee55bf7f1736f9748.svg",
+    "main.e994b681.css.map": "/DPA-BizLink/static/css/main.e994b681.css.map",
+    "main.23c141b2.js.map": "/DPA-BizLink/static/js/main.23c141b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e994b681.css",
+    "static/js/main.23c141b2.js"
+  ]
+}
