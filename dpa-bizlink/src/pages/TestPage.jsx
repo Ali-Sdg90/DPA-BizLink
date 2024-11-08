@@ -1,16 +1,44 @@
 import { Button, Card } from "antd";
-import React from "react";
+import React, { useContext, useEffect } from "react";
 
 import { ReactComponent as MoneyIcon } from "../assets/images/test-page/Money.svg";
 import UserPlaceholderImage from "../assets/images/test-page/User-Placeholder.png";
 import SocialLinksImage from "../assets/images/test-page/Social-Links.png";
 
 import Header from "../components/Layout/Header";
+import { getRequest } from "../services/apiService";
+import { CommonContext } from "../store/CommonContextProvider";
 
 const TestPage = () => {
+    const { setToastifyObj } = useContext(CommonContext);
+
+    useEffect(() => {
+        const getJobTitles = async () => {
+            try {
+                const res = await getRequest(
+                    `basicGetPassport/sinsisn`,
+                    true,
+                    setToastifyObj
+                );
+
+                console.log("RESSSSS >>", res);
+
+                if (res.success) {
+                    console.log("Success Res >>", res);
+                } else {
+                    throw new Error("Unsuccessful fetch /options/jobTitles");
+                }
+            } catch (error) {
+                console.log("Error in UsersList-getData: ", error);
+            }
+        };
+
+        getJobTitles();
+    }, []);
+
     return (
         <div className="test-page">
-            <Header/>
+            <Header />
 
             <Card className="first-section">
                 <div className="user-image">
