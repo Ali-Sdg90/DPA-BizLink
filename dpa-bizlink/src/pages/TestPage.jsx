@@ -24,10 +24,8 @@ const TestPage = () => {
                     setToastifyObj
                 );
 
-                console.log("RESSSSS >>", res);
-
                 if (res.success) {
-                    console.log("Success Res >>", res);
+                    console.log("Success Res >>", res.data);
                     setUserData(res.data);
                 } else {
                     throw new Error("Unsuccessful fetch /options/jobTitles");
@@ -57,28 +55,36 @@ const TestPage = () => {
                         </div>
 
                         <div className="user-info">
-                            <div className="user-name">{userData.fullName}</div>
-                            <div className="user-job">{userData.jobTitle}</div>
+                            <div className="user-name">
+                                {userData?.fullName || "نامشخص"}
+                            </div>
+                            <div className="user-job">
+                                {userData?.jobTitle || "نامشخص"}
+                            </div>
                         </div>
 
                         <div className="user-price">
                             <MoneyIcon />
                             میانگین هزینه مشاوره : هر ساعت{" "}
-                            {userData.averagePerHourFormatted}
+                            {userData?.averagePerHourFormatted || "نامشخص"}
                         </div>
                     </Card>
 
-                    <Card className="second-section">
-                        <ReactPlayer
-                            className="video-player"
-                            url={userData.aboutMe.videoUrl}
-                            controls
-                        />
-                    </Card>
+                    {userData?.aboutMe?.videoUrl ? (
+                        <Card className="second-section">
+                            <ReactPlayer
+                                className="video-player"
+                                url={userData?.aboutMe?.videoUrl}
+                                controls
+                            />
+                        </Card>
+                    ) : (
+                        ""
+                    )}
 
                     <Card className="third-section" title="درباره من">
                         <div className="about-me-text">
-                            {userData.aboutMe.description}
+                            {userData?.aboutMe?.description || "_"}
                         </div>
                     </Card>
 
@@ -98,16 +104,20 @@ const TestPage = () => {
 
                     <Card className="fifth-section" title="سوابق شغلی">
                         <div className="work-experience-section">
-                            {userData.workExperiences.map(
-                                (experience, index) => (
-                                    <div
-                                        className="work-experience-item"
-                                        key={index}
-                                    >
-                                        <div>{experience.key}</div>-
-                                        <div>{experience.value}</div>
-                                    </div>
+                            {userData?.workExperiences?.length ? (
+                                userData?.workExperiences.map(
+                                    (experience, index) => (
+                                        <div
+                                            className="work-experience-item"
+                                            key={index}
+                                        >
+                                            <div>{experience.key}</div>-
+                                            <div>{experience.value}</div>
+                                        </div>
+                                    )
                                 )
+                            ) : (
+                                <div>سابقه‌ای ثبت نشده</div>
                             )}
                         </div>
                     </Card>
