@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-position: 0 -22px;
     background-size: contain;
+    min-height: 100vh;
 }
 
 .first-section {
@@ -83,13 +84,8 @@
     }
 
     .video-player {
-        width: 328px;
-        height: 184px;
-        background: url("../../images/test-page/Video-Placeholder.png")
-                center/cover no-repeat,
-            white;
-        cursor: pointer;
-        background-size: contain;
+        width: 328px !important;
+        height: 184px !important;
     }
 }
 
