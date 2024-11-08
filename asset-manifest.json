@@ -1,8 +1,21 @@
 {
   "files": {
-    "main.css": "/DPA-BizLink/static/css/main.e994b681.css",
-    "main.js": "/DPA-BizLink/static/js/main.23c141b2.js",
-    "static/media/Video-Placeholder.png": "/DPA-BizLink/static/media/Video-Placeholder.a8d8aa2e753e0ae20267.png",
+    "main.css": "/DPA-BizLink/static/css/main.7750ffbd.css",
+    "main.js": "/DPA-BizLink/static/js/main.641f7f5f.js",
+    "reactPlayerYouTube.js": "/DPA-BizLink/static/js/reactPlayerYouTube.b026e6d2.chunk.js",
+    "reactPlayerSoundCloud.js": "/DPA-BizLink/static/js/reactPlayerSoundCloud.8c53dde4.chunk.js",
+    "reactPlayerVimeo.js": "/DPA-BizLink/static/js/reactPlayerVimeo.61d188b9.chunk.js",
+    "reactPlayerMux.js": "/DPA-BizLink/static/js/reactPlayerMux.31b5b7a1.chunk.js",
+    "reactPlayerFacebook.js": "/DPA-BizLink/static/js/reactPlayerFacebook.e76f15fa.chunk.js",
+    "reactPlayerStreamable.js": "/DPA-BizLink/static/js/reactPlayerStreamable.21d9a85a.chunk.js",
+    "reactPlayerWistia.js": "/DPA-BizLink/static/js/reactPlayerWistia.984c27d4.chunk.js",
+    "reactPlayerTwitch.js": "/DPA-BizLink/static/js/reactPlayerTwitch.e3db374f.chunk.js",
+    "reactPlayerDailyMotion.js": "/DPA-BizLink/static/js/reactPlayerDailyMotion.b7e351a3.chunk.js",
+    "reactPlayerMixcloud.js": "/DPA-BizLink/static/js/reactPlayerMixcloud.b4c62745.chunk.js",
+    "reactPlayerVidyard.js": "/DPA-BizLink/static/js/reactPlayerVidyard.c7a8b3f1.chunk.js",
+    "reactPlayerKaltura.js": "/DPA-BizLink/static/js/reactPlayerKaltura.e7bdbfca.chunk.js",
+    "reactPlayerFilePlayer.js": "/DPA-BizLink/static/js/reactPlayerFilePlayer.a06f6971.chunk.js",
+    "reactPlayerPreview.js": "/DPA-BizLink/static/js/reactPlayerPreview.70c3a67a.chunk.js",
     "static/media/User-Placeholder.png": "/DPA-BizLink/static/media/User-Placeholder.2776b282d19ec057034c.png",
     "static/media/Social-Links.png": "/DPA-BizLink/static/media/Social-Links.e5416a65ae669edac353.png",
     "static/media/Page-Background.png": "/DPA-BizLink/static/media/Page-Background.48b02abe274cfa978f85.png",
@@ -16,11 +29,25 @@
     "static/media/Money.svg": "/DPA-BizLink/static/media/Money.f7c3b928f71c5542e70784b8ace925d2.svg",
     "index.html": "/DPA-BizLink/index.html",
     "static/media/Right-Arrow.svg": "/DPA-BizLink/static/media/Right-Arrow.bd32f92494ab43fee55bf7f1736f9748.svg",
-    "main.e994b681.css.map": "/DPA-BizLink/static/css/main.e994b681.css.map",
-    "main.23c141b2.js.map": "/DPA-BizLink/static/js/main.23c141b2.js.map"
+    "main.7750ffbd.css.map": "/DPA-BizLink/static/css/main.7750ffbd.css.map",
+    "main.641f7f5f.js.map": "/DPA-BizLink/static/js/main.641f7f5f.js.map",
+    "reactPlayerYouTube.b026e6d2.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerYouTube.b026e6d2.chunk.js.map",
+    "reactPlayerSoundCloud.8c53dde4.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerSoundCloud.8c53dde4.chunk.js.map",
+    "reactPlayerVimeo.61d188b9.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerVimeo.61d188b9.chunk.js.map",
+    "reactPlayerMux.31b5b7a1.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerMux.31b5b7a1.chunk.js.map",
+    "reactPlayerFacebook.e76f15fa.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerFacebook.e76f15fa.chunk.js.map",
+    "reactPlayerStreamable.21d9a85a.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerStreamable.21d9a85a.chunk.js.map",
+    "reactPlayerWistia.984c27d4.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerWistia.984c27d4.chunk.js.map",
+    "reactPlayerTwitch.e3db374f.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerTwitch.e3db374f.chunk.js.map",
+    "reactPlayerDailyMotion.b7e351a3.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerDailyMotion.b7e351a3.chunk.js.map",
+    "reactPlayerMixcloud.b4c62745.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerMixcloud.b4c62745.chunk.js.map",
+    "reactPlayerVidyard.c7a8b3f1.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerVidyard.c7a8b3f1.chunk.js.map",
+    "reactPlayerKaltura.e7bdbfca.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerKaltura.e7bdbfca.chunk.js.map",
+    "reactPlayerFilePlayer.a06f6971.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerFilePlayer.a06f6971.chunk.js.map",
+    "reactPlayerPreview.70c3a67a.chunk.js.map": "/DPA-BizLink/static/js/reactPlayerPreview.70c3a67a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e994b681.css",
-    "static/js/main.23c141b2.js"
+    "static/css/main.7750ffbd.css",
+    "static/js/main.641f7f5f.js"
   ]
 }
